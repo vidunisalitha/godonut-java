@@ -25,9 +25,9 @@ public class MyConn {
         // Link of the mysql database 
         // Running in locally - localhost portnumber - 3306
         // databse name CafeManagementSystem
-        String url = "jdbc:mysql://localhost:3306/CafeManagementSystem";
+        String url = "jdbc:mysql://localhost:3306/cafemanagementsystem";
 
-        c = DriverManager.getConnection(url, "root", "Ransilu@123");
+        c = DriverManager.getConnection(url, "root", "Pass@123");
         c.setAutoCommit(false);
     }
 
